@@ -1,0 +1,20 @@
+{
+  "name": "coco-timer",
+  "productname": "Coco Timer",
+  "version": "1.0.0",
+  "description": "Calcul du temps de travail",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Coco",
+    "temps",
+    "travail"
+  ],
+  "author": "Laurelien",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "^10.1.0"
+  }
+}

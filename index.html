@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Coco-timer</title>
+	</head>
+	<body>
+		<header>
+			<h1>Comptage d'heures</h1>
+		</header>
+		
+		<section>
+			<div id="form">
+				<input type="number" min="0" max="23" id="heures" placeholder="Heures" /><span>:</span><input type="number" min="0" max="59" id="minutes" placeholder="Minutes" /><button type="button" id="btn">+</button>
+			</div>
+			
+			<div id="history">
+				<h2>Derniers horaires ajoutés</h2>
+				<div class="horaires">
+				<!--
+				<div class="horaire">
+					<span class="valeur">2h06</span><a href="#" title="Retirer" class="remove">&times;</a>
+				</div>
+				<div class="horaire">
+					<span class="valeur">2h06</span><a href="#" title="Retirer" class="remove">&times;</a>
+				</div>
+				<div class="horaire">
+					<span class="valeur">2h06</span><a href="#" title="Retirer" class="remove">&times;</a>
+				</div>
+				<div class="horaire">
+					<span class="valeur">2h06</span><a href="#" title="Retirer" class="remove">&times;</a>
+				</div>
+				<div class="horaire">
+					<span class="valeur">2h06</span><a href="#" title="Retirer" class="remove">&times;</a>
+				</div>
+				-->
+				</div>
+			</div>
+			
+			<div id="result">
+				<p>-</p>
+			</div>
+		</section>
+		
+		<footer>
+			<a href="#">Reset</a>
+		</footer>
+		<script src="js/script.js"></script>
+	</body>
+</html>
